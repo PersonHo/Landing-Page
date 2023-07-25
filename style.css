@@ -1,3 +1,132 @@
-.body {
+*{
+    font-family: 'Roboto';
+}
+
+.bodycontainer{
+    margin: 0;
+}
+
+.header{
     display: flex;
+    color: #F9FAF8;
+    outline: 2px dotted red;
+    flex: auto;
+    background-color: #1F2937;
+    height: 50px;
+    align-items: center;
+    margin-top: 0;
+    padding-left: 100;
+    padding-right: 100;
+}
+
+.headerlogo{
+    margin-top: -10;
+    /* outline: 2px dotted red; */
+    font-size: 24;
+}
+.headerlink {
+    margin-top: -10;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex: auto;
+    color: #E5E7EB;
+    outline: 2px solid blue;
+    background-color: #1F2937;
+    height: 20px;
+    font-size: 14;
+    
+}
+
+.link{
+    padding-left: 40;
+}
+.hero{
+    display: flex;
+    color: #F9FAF8;
+/*     outline: 2px dotted red; */
+    flex: auto;
+    background-color: #1F2937;
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 48;
+    padding-left: 100;
+    padding-right: 100;
+}
+
+.herotext{
+/*     outline: 2px dotted red; */
+    margin-right: -50;
+    height: 200;
+    width: 400;
+}
+
+.subherotext{
+    color: #E5E7EB;
+    font-size: 18;
+}
+
+.button{
+    margin-top: 10;
+    font-size: 18;
+    width: 130;
+    height: 40;
+    color: #F9FAF8;
+    border-radius: 6px;
+    background-color: #3882F6;
+    border-style: none;
+}
+
+.img{
+    /*     outline: 2px dotted red; */
+    width: 600;
+    height: 200;
+    background-color: #E5E7EB;;
+}
+
+.info{
+    display: flex;
+    color: #F9FAF8;
+    outline: 2px dotted red;
+    flex: auto;
+    flex-direction: column;
+    background-color: white;
+    height: 500px;
+    align-items: center;
+    font-size: 48;
+    padding-left: 100;
+    padding-right: 100;
+}
+
+.rando{
+    color: #1F2937;
+    font-size: 36;
+    font-weight: bold;
+    margin-top: 50;
+}
+
+.illustrations{
+    display: flex;
+
+}
+
+.set {
+    display: flex;
+    flex-direction: column;
+    height: 300;
+    width: 150;
+    margin: 40;
+    justify-self: center;
+}
+.pic {
+    border-radius: 10px;
+    border: solid #3882F6;
+    height: 150;
+    width: 150;
+}
+.caption{
+    font-size: 18;
+    color: grey;
+    margin-top: 10;
 }
