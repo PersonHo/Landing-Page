@@ -9,7 +9,7 @@
 .header{
     display: flex;
     color: #F9FAF8;
-    outline: 2px dotted red;
+/*     outline: 2px dotted red; */
     flex: auto;
     background-color: #1F2937;
     height: 50px;
@@ -31,7 +31,7 @@
     justify-content: right;
     flex: auto;
     color: #E5E7EB;
-    outline: 2px solid blue;
+/*     outline: 2px solid blue; */
     background-color: #1F2937;
     height: 20px;
     font-size: 14;
@@ -88,7 +88,7 @@
 .info{
     display: flex;
     color: #F9FAF8;
-    outline: 2px dotted red;
+/*     outline: 2px dotted red; */
     flex: auto;
     flex-direction: column;
     background-color: white;
@@ -129,4 +129,83 @@
     font-size: 18;
     color: grey;
     margin-top: 10;
+}
+
+.quoterow{
+    display: flex;
+    height: 500px;
+    padding-left: 100;
+    padding-right: 100;
+    background-color: #E5E7EB ;
+    align-items: center;
+}
+.quotebox{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100;
+    padding-right: 100;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author{
+    color: #1F2937;
+    font-size: 20;
+    font-weight: bold;
+    align-self: last baseline;
+}
+
+.actionrow{
+    display: flex;
+    height: 300px;
+    padding-left: 100;
+    padding-right: 100;
+    background-color: white ;
+    justify-content: center;
+}
+
+.actionContainer{
+    display: flex;
+    border-radius: 6px;
+    background-color: #3882F6;
+    width: 900;
+    height: 100;
+    align-self: center;
+    justify-content: center;
+
+
+}
+
+.actionContent{
+    display: flex;
+/*     outline: 2px dotted red; */
+    width: 550;
+    justify-content: space-between;
+    align-items: center;
+}
+.actiontext{
+
+}
+
+.actionText1{
+    color: white;
+}
+
+.actionText2{
+    color: #E5E7EB;
+    font-size: 12;
+    font-weight: 350;
+}
+.white{
+    border: 1.5px solid;
+    border-color: white;
+    height: 30;
+    width: 90;
+    font-size: 12;
+
 }
